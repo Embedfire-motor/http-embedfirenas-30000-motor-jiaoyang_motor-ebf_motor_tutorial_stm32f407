@@ -35,10 +35,10 @@ PID是Proportional（比例）、Integral（积分）、Differential（微分）
    :align: center
 
 - Kp——比例增益，Kp与比例度成倒数关系
-- Tt——积分时间常数
+- Ti——积分时间常数
 - TD——微分时间常数
-- u（t）——PID控制器的输出信号
-- e（t）——给定值r（t）与测量值误差
+- u(t)——PID控制器的输出信号
+- e(t)——给定值r(t)与测量值误差
 
 
 
@@ -165,7 +165,7 @@ PID框图
 .. image:: ../media/PID_lisan2.png
    :align: center
 
-到此为止，PID的基本离散表达形式就推导出来了，有点经验人一定会有疑问，PID的公式不应该P*A（x）+I*B(x)+D*C(x)的形式么？
+到此为止，PID的基本离散表达形式就推导出来了，有点经验人一定会有疑问，PID的公式不应该P*A(x)+I*B(x)+D*C(x)的形式么？
 不错，以上的形式是没有化简的形式，接着推导则有：
 
 .. image:: ../media/PID_lisan5.png
